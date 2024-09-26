@@ -66,12 +66,7 @@ https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset?resource=download
 
 includes:
 credits.csv
-keywords.csv
-links.csv
-links_small.csv
 movies_metadata.csv
-ratings.csv
-ratings_small.csv
 
 These files contain metadata for all 45,000 movies listed in the Full MovieLens Dataset. The dataset consists of movies released on or before July 2017. Data points include cast, crew, plot keywords, budget, revenue, posters, release dates, languages, production companies, countries, TMDB vote counts, and vote averages.
 
