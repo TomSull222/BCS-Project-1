@@ -1,4 +1,6 @@
 # BCS-Project-1
+TEMPORARY README, FIX BEFORE SUBMISSION
+
 
 Project Title:
 Exploratory Data Analysis of Films by Decade (1980s-2010s)
