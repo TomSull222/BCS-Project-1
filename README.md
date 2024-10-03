@@ -15,7 +15,7 @@ This project aims to investigate the evolution of filmmaking over four decades (
 
 - **Diversity in Filmmaking**: Understanding the evolution of female representation in film production (cast and crew) from 1980 to 2017, including average percentages by decade and correlations with box office revenues.
   
-- **Box Office Performance and Award Distribution**: Evaluating financial success and recognition of films, analyzing correlations between revenue, ratings, and awards.
+- **Box Office Performance and Award Distribution**: Evaluating financial success and recognition of films.
   
 - **Seasonality of Releases**: Investigating when high-rated films are typically released and how release timing affects ratings.
   
@@ -29,8 +29,8 @@ The following research questions will guide our analysis:
 - How does the percentage of women involved in film production correlate with box office revenues?
 
 ### Box Office Performance and Award Distribution
-- What are the average box office film revenues in each decade, and how do these revenues correlate with critical ratings?
-- Which decade saw the highest number of awards distributed, and what key factors influenced award-winning likelihood?
+- What are the average box office film revenues by year
+- What are the average number of film awards per year
 
 ### Seasonality of Releases
 - In which months or seasons do higher-rated films tend to be released each decade?
