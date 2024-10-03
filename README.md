@@ -1,4 +1,4 @@
-# Exploratory Data Analysis of Films by Decade (1980s-2010s)
+# Exploratory Data Analysis of Films by Year (1980-2017)
 
 ## Team Members
 - Dan
