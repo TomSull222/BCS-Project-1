@@ -24,7 +24,7 @@ This project explores the evolution of filmmaking across four decades (1980s-201
 - What is the correlation between the percentage of women in film production and box office revenue?
 
 ### Box Office Performance and Awards
-- What are the average box office revenues and awards earned by films each year?
+- What are the yearly averages for box office revenues and number of awards received by films?
 
 ### Release Seasonality
 - What months or seasons tend to feature higher-rated film releases across the decades?
