@@ -54,3 +54,19 @@ Each team member will focus on a specific aspect of the analysis:
 - **Thomas**: Release Seasonality
 - **Prachi**: Box Office Performance and Awards
 - **Rashi**: Genre Trends and Film Duration
+
+
+## Files and Folder Structure
+
+The project structure includes the following key components:
+
+- **src**: This folder contains the raw data files that supply our datasets for analysis.
+  - Files in `src`:
+    - `credits_part1.csv`
+    - `credits_part2.csv`
+    - `movies_metadata.csv`
+    - `omdb_data.csv`
+
+- **merged_df.ipynb**: This Jupyter notebook reads the CSV files from the `src` folder, merges them, cleans the data, filters out null values and duplicates, creates new columns calculated from existing data, and converts some columns to the appropriate data types. The output is a file named `merged_df.csv`, which serves as our initial DataFrame for conducting analysis.
+
+- **main.ipynb**: This Jupyter notebook reads in `merged_df.csv` and contains code for calculations and visualizations of our data to address the research questions. The visualizations are saved in the `output` folder.
