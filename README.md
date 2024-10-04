@@ -70,3 +70,6 @@ The project structure includes the following key components:
 - **merged_df.ipynb**: This Jupyter notebook reads the CSV files from the `src` folder, merges them, cleans the data, filters out null values and duplicates, creates new columns calculated from existing data, and converts some columns to the appropriate data types. The output is a file named `merged_df.csv`, which serves as our initial DataFrame for conducting analysis.
 
 - **main.ipynb**: This Jupyter notebook reads in `merged_df.csv` and contains code for calculations and visualizations of our data to address the research questions. The visualizations are saved in the `output` folder.
+
+
+## Analysis and Conclusion
