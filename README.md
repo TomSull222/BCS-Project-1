@@ -1,83 +1,75 @@
-# BCS-Project-1
-TEMPORARY README, FIX BEFORE SUBMISSION
+# Exploratory Data Analysis of Films by Year (1980-2017)
+
+## Team Members
+- **Dan**
+- **Thomas**
+- **Prachi**
+- **Rashi**
+
+## Project Overview
+This project investigates the evolution of filmmaking from the 1980s to the 2010s by analyzing key aspects of films released during this period. The analysis focuses on:
+
+- **Diversity in Filmmaking**: Assessing the representation of women in film production (cast and crew) and exploring its correlation with box office performance.
+
+- **Release Seasonality**: Analyzing the timing of film releases by season and how it correlates with ratings and box office revenue.
+  
+- **Box Office Performance and Awards**: Evaluating average box office revenues and the number of awards received by films each year.
+
+- **Genre Trends and Film Durations**: Analyzing trends in genre popularity over time and exploring the relationship between film genres and average runtime.
 
 
-Project Title:
-Exploratory Data Analysis of Films by Decade (1980s-2010s)
+## Research Questions
+
+### Diversity in Filmmaking
+- How has female representation in film production (cast and crew) changed from 1980 to 2017?
+- What is the correlation between the percentage of women in film production and box office revenue?
+
+### Release Seasonality
+- Which seasons tend to yield higher ratings?
+- Which seasons show stronger box office performance?
+
+### Box Office Performance and Awards
+- What are the yearly averages for box office revenues?
+- What are the yearly averages for the number of awards received by films?
+
+### Genre Trends and Film Durations
+- What are the most popular genres over the decades?
+- How does genre popularity relate to average runtime?
+
+## Data Sources
+We will utilize the following datasets:
+
+- **The Movie Dataset** from Kaggle: [The Movie Dataset](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset?resource=download)
+  - Key files include:
+    - `credits.csv`
+    - `movies_metadata.csv`
+
+- **OMDb API Dataset**: `omdb_data.csv`
+  - Contains additional columns such as Year, Rated, Awards, imdbRating, imdbVotes, etc.
+
+## Team Responsibilities
+Each team member will focus on a specific aspect of the analysis:
+
+- **Dan**: Diversity in Filmmaking
+- **Thomas**: Release Seasonality
+- **Prachi**: Box Office Performance and Awards
+- **Rashi**: Genre Trends and Film Duration
 
 
+## Files and Folder Structure
 
-Team Members:
-Dan
-Thomas
-Prachi
-Rashi
+The project structure includes the following key components:
 
+- **src**: This folder contains the raw data files that supply our datasets for analysis.
+  - Files in `src`:
+    - `credits_part1.csv`
+    - `credits_part2.csv`
+    - `movies_metadata.csv`
+    - `omdb_data.csv`
 
+- **merged_df.ipynb**: This Jupyter notebook reads the CSV files from the `src` folder, merges them, cleans the data, filters out null values and duplicates, creates new columns calculated from existing data, and converts some columns to the appropriate data types. The output is a file named `merged_df.csv`, which serves as our initial DataFrame for conducting analysis.
 
-Project Description/Outline:
-This project aims to investigate the evolution of filmmaking over four decades (1980s-2010s) by analyzing various aspects of films released during that time. Key areas of focus will include:
-
-
--Diversity in Filmmaking: Understanding representation by gender in lead roles and behind-the-scenes roles such as directors.
-
-
--Box Office Performance and Award Distribution: Evaluating financial success and recognition of films, analyzing correlations between revenue, ratings, and awards.
+- **main.ipynb**: This Jupyter notebook reads in `merged_df.csv` and contains code for calculations and visualizations of our data to address the research questions. The visualizations are saved in the `output` folder.
 
 
--Seasonality of Releases: Investigating when high-rated films are typically released and how release timing affects ratings.
-
-
-Trends in Genres and Film Duration: Examining changes in genre popularity and average film length over the decades and their impact on critical reception.
-
-
-
-Research Questions to Answer:
-(may need to be reformulated/expanded)
-
-
-Diversity in Filmmaking:
-
-How has gender representation in lead roles evolved across decades?
-Which decade had the highest representation of female directors and lead actors, and how did this correlate with film ratings and critical acclaim?
-
-
-Box Office Performance and Award Distribution:
-
-What are the average box office film revenues in each decade, and how do these revenues correlate with critical ratings?
-Which decade saw the highest number of awards distributed, and what key factors influenced award-winning likelihood?
-
-
-Seasonality of Releases:
-
-In which months or seasons do higher-rated films tend to be released each decade?
-How does the frequency of film releases vary, and how do ratings compare between films released during peak versus off-peak months?
-
-
-Trends in Genres and Film Duration:
-
-How have the popularity and diversity of film genres evolved from the 1980s to the 2010s?
-What trends in average runtime are observable over this period, and is there a correlation between genre popularity and film duration?
-How do genre and film duration relate to film ratings and critical acclaim?
-
-
-
-Datasets to Be Used:
-The Movie Dataset
-https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset?resource=download
-
-includes:
-credits.csv
-movies_metadata.csv
-
-These files contain metadata for all 45,000 movies listed in the Full MovieLens Dataset. The dataset consists of movies released on or before July 2017. Data points include cast, crew, plot keywords, budget, revenue, posters, release dates, languages, production companies, countries, TMDB vote counts, and vote averages.
-
-
-
-Rough Breakdown of Tasks:
-
-Each Team member will be assigned one research topic
-Dan - 
-Thomas - 
-Prachi - 
-Rashi -
+## Analysis and Conclusion
