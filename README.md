@@ -102,9 +102,10 @@ In terms of critical reception, Fall had a slight edge, with an average **IMDb r
 
 ## Box Office Performance and Awards
 
-Examining box office trends, we observed that the **1980s** had stagnant growth, with average annual revenue hovering around **$25 million**. However, in the **1990s**, the film industry gained momentum, with an increase of nearly **$15 million** in average revenue by the end of the decade. This upward trend continued through the 2000s, with a **$20 million** increase. Although more volatile, the **2010s** still showed an overall growth of around **$10 million** by 2017.
+Examining box office trends, we observed that the **1980s** had stagnant growth, with average annual revenue hovering around **$25 million**. However, in the **1990s**, the film industry gained momentum, with an increase of nearly **$15 million** in average revenue by the end of the decade. This upward trend continued through the **2000s**, with a **$20 million** increase. Although more volatile, the **2010s** still showed an overall growth of around **$10 million** by **2017**.
 
-The trend in **award distribution** mirrored box office performance. The 1980s saw little change, but the **1990s** marked a doubling of average awards. The 2000s continued this upward trend, while the **2010s** saw fluctuations with little overall growth.
+The trend in award distribution mirrored box office performance, with the **1990s** doubling average awards and steady growth through the **2000s**. Films with IMDb ratings between **7.5 and 9** saw a sharp rise in box office revenue, though some highly rated films earned less, likely due to niche audiences. Awards surged for films rated between **5 and 8**, with more variability beyond that range.
+
 
 ### Key Statistical Analysis
 
