@@ -72,6 +72,10 @@ The project structure includes the following key components:
 - **main.ipynb**: This Jupyter notebook reads in `merged_df.csv` and contains code for calculations and visualizations of our data to address the research questions. The visualizations are saved in the `output` folder.
 
 
+##Slideshow Link:
+https://docs.google.com/presentation/d/1j4g_0H_2M4ql_UFYltTKvwjW6Zv2nbFh4jp9hxXo-AU/edit?usp=sharing
+
+
 ## Analysis and Conclusion
 This exploratory data analysis aimed to uncover trends in the film industry from 1980 to 2017, focusing on diversity in filmmaking, seasonal release patterns, box office performance, awards distribution, and genre patterns.
 
